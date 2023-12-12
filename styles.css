@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap');
+  
+*{
+  box-sizing: border-box;
+  font-family: 'Hedvig Letters Serif', serif;
+}
+body{
+  margin: 0px;
+  padding: 0px;
+    background-color: #C39BD3;
+}
+.container{
+  width: 100%;
+  overflow-x: auto;
+}
+#caption{
+  text-align: center;
+  padding: 10px;
+  margin: 0px;
+  font-size: 2rem;
+}
+.table{
+  table-layout: auto;
+  width: 100%;
+  border: 1px solid #000;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  border-collapse: collapse;
+}
+table,th,td{
+  border: 1px solid #ddd;
+}
+td{
+    width: 25%;
+}
+th,td{
+  padding: 15px;
+}
+th{
+  background-color: #000;
+  color: #fff;
+}
+tbody>tr:nth-child(odd){background-color: #27AE60; color: white;}
+
+tbody>tr:nth-last-of-type(odd){background-color: #6C3483; color: white}
+
+tbody > tr:hover{
+  font-weight: bold;
+  color: #000;
+  background-color: coral; 
+}
